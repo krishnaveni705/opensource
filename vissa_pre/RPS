@@ -1,0 +1,8 @@
+c,v=map(str,input().split())
+
+if (c=='R' and v=='P') or (c=='S' and v=='R') or (c=='P' and v=='S'):
+    print("Charan")
+elif (c=='P' and v=='R') or (c=='R' and v=='S') or (c=='S' or v=='P') :
+    print("Vignesh")
+else:
+    print('NULL')
