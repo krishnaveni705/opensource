@@ -1,0 +1,5 @@
+x=int(input())
+disc_10=x-(x*0.10)
+disc_100=x-100
+t=int(min(disc_10,disc_100))
+print(t)
